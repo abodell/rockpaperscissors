@@ -1,4 +1,16 @@
-const choices = ['rock', 'paper', 'scissors']
+const button = document.querySelector('.toggle');
+const theme = document.querySelector('#theme-link');
+button.addEventListener('click', function() {
+    if (theme.getAttribute('href') === "styles/dark.css") {
+        theme.href = "styles/light.css";
+        button.textContent = "Dark Mode";
+    } else {
+        theme.href = "styles/dark.css";
+        button.textContent = "Light Mode";
+    }
+})
+
+/*const choices = ['rock', 'paper', 'scissors']
 
 function computerPlay(picks) {
     let choice = picks[Math.floor(Math.random() * choices.length)]
@@ -38,4 +50,6 @@ function game() {
     }
 }
 
-game()
+
+
+game() */

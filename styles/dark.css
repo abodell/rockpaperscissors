@@ -1,0 +1,21 @@
+body {
+    font-family: "Montserrat",-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0;
+    min-height: 100vh;
+    background-color: #0f0e17;
+}
+
+.header {
+    display: flex;
+    color:#fffffe;
+    justify-content: space-between;
+    padding: 30px 45px 0px 45px;
+    align-items: center;
+}
+
+.header img {
+    border-radius: 45%;
+    width: 200px;
+    height: auto;
+}
+
