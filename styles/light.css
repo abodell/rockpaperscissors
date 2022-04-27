@@ -19,6 +19,14 @@ body {
     height: auto;
 }
 
+#toggle {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    font-size: 20px;
+    background-color: #bae8e8;
+}
+
 .content {
     text-align: center;
     align-items: center;
@@ -41,15 +49,15 @@ body {
 
 .content-choices button {
     background-color: #bae8e8;
-    height: 20em;
-    width: 20em;
+    height: 22em;
+    width: 22em;
     border: none;
     border-radius: 50%;
 }
 
 .content-choices button:hover {
-    height: 22em;
-    width: 22em;
+    height: 24em;
+    width: 24em;
     background-color: #ffd803;
     transition: .3s;
 }
