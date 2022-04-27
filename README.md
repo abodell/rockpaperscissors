@@ -1,2 +1,2 @@
 # rockpaperscissors
-Basic JavaScript
+Basic JavaScript application to play rock, paper, scissors versus the computer
