@@ -3,11 +3,11 @@ body {
     margin: 0;
     min-height: 100vh;
     background-color: #0f0e17;
+    color:#fffffe;
 }
 
 .header {
     display: flex;
-    color:#fffffe;
     justify-content: space-between;
     padding: 30px 45px 0px 45px;
     align-items: center;
@@ -17,5 +17,56 @@ body {
     border-radius: 45%;
     width: 200px;
     height: auto;
+}
+
+.content {
+    text-align: center;
+    align-items: center;
+    display: block;
+    padding-top: 75px;
+}
+
+.content-choices {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-top: 100px;
+    padding: 0px 80px;
+}
+
+.content-choices img {
+    height: 20em;
+    width: 20em;
+}
+
+.content-choices button {
+    background-color: #e53170;
+    height: 20em;
+    width: 20em;
+    border: none;
+    border-radius: 50%;
+}
+
+.content-choices button:hover {
+    height: 22em;
+    width: 22em;
+    background-color: #f25f4c;
+    transition: .3s;
+}
+
+.message {
+    padding-top: 50px;
+    text-align:center;
+}
+
+#result {
+    color: white;
+}
+
+.score {
+    display: flex;
+    padding-top: 50px;
+    text-align: center;
+    justify-content: space-evenly;
 }
 
